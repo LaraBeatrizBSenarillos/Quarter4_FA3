@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    #output 
+    {
+	white-space: pre;
+  	margin-top: 20px;
+    }
+</style>
+<title>Shape Generator</title>
+</head>
+<body>
+    <h1>Shape Generator</h1>
+    <form id="numberForm" onsubmit="return generateShape(event)">
+        <label for="numberI">Enter a number:</label>
+        <input type="number" id="numberI" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="output"></div>
+
+    <script src="one.js"></script>
+
+</body>
+</html>
